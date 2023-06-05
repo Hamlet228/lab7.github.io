@@ -90,4 +90,4 @@ function drawGame() {
   snake.unshift(newHead);
 }
 
-let game = setInterval(drawGame, 16);
+let game = setInterval(drawGame, 100);
